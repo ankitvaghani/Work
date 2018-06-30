@@ -1,0 +1,28 @@
+{% extends "demoapp/base.html" %}
+{% block title %}All User Details{% endblock %}	
+{% block content %}
+	<center>		
+		<a href="register/">Add new user</a>
+		<table border="1" cellpadding="5px" cellspacing="0">
+			<tr>			
+				<th>#</th>
+				<th>Full Name</th>
+				<th>Email-Id</th>			
+				<th>Mobile No.</th>			
+				<th>Action</th>			
+			</tr>
+			{% for users in alluserdata %}
+			<tr>
+				<td>{{forloop.counter}}</td>
+				<td>{{users.user_name}}</td>
+				<td>{{users.user_email}}</td>				
+				<td>{{users.user_mobile}}</td>
+				<td>
+					<a href="{{users.id}}/remove" onclick="return confirm('Are you sure delete this record ?');">Delete</a> | 
+					<a href="{{users.id}}/change">Edit</a>
+				</td>
+			</tr>
+			{% endfor %}
+		</table><br>
+	</center>
+{% endblock %}

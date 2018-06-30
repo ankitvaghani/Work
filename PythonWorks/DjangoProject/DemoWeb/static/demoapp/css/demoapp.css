@@ -1,0 +1,12 @@
+body{
+	color: green;
+}
+a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+	text-decoration: underline;
+}

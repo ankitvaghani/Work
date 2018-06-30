@@ -1,0 +1,30 @@
+{% extends "demoapp/base.html" %}
+{% block title %}Update User Details{% endblock %}	
+{% block content %}
+	<center>
+		<div style="border: 2px solid skyblue;">
+			<form method="POST" action="/home/{{editid.id}}/edituser/">
+				{% csrf_token %}
+				<div>
+					<h3>Update User Information</h3><br>					
+				</div>
+				<div>
+					Full Name: <input type="text" name="txtuname" value="{{editid.user_name}}" />
+				</div><br>
+				<div>
+					User Email: <input type="text" name="txtuemail" value="{{editid.user_email}}"/>
+				</div><br>
+				<div>
+					Password: &nbsp; <input type="text" name="txtupass" value="{{editid.user_pass}}"/>
+				</div><br>
+				<div>
+					Mobile No: <input type="text" name="txtumobile" value="{{editid.user_mobile}}"/>
+				</div><br>
+				<div>
+					<input type="submit" name="btnsubmit" value="Submit" />
+					<a href="/home/">Go back</a>
+				</div>
+			</form><br>
+		</div>
+	</center>
+{% endblock %}

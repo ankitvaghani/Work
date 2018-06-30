@@ -1,0 +1,80 @@
+
+=================================================================================================
+
+#ELECTRONIC STATION.
+#Number factory.
+
+=================================================================================================
+
+def checkio(number):
+    #replace this for solution
+    #print(number%2)
+    
+    num_lst = []
+    while number > 9:
+        #print ('\nwhile :',data)
+        flag = False
+        for i in range(9, 1, -1):
+            #print ('i :',i)
+            if number % i == 0:
+                #print ('if data :',data)
+                flag = True
+                num_lst.append(i)
+                #print ('inner nums :',nums)
+                number = number // i
+                
+                #print ('inner data :',data)
+                break
+
+        if flag is False:
+            return 0
+    
+    num_lst.append(number)
+    #print ('outer num_lst :', sorted(num_lst))
+    result = ""
+    for num in sorted(num_lst):
+        result += str(num)
+        #print ('result :', result)
+    return int(result)
+
+      
+if __name__ == '__main__':
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert checkio(20) == 45, "1st example"
+    assert checkio(21) == 37, "2nd example"
+    assert checkio(17) == 0, "3rd example"
+    assert checkio(33) == 0, "4th example"
+    assert checkio(3125) == 55555, "5th example"
+    assert checkio(9973) == 0, "6th example"
+
+
+
+
+=================================================================================================
+
+#MINE STATION.
+#Flatten a list.
+
+=================================================================================================
+
+def flat_list(array):
+
+  
+    num_lst = []
+    for i in array:
+        #print(i)
+        if isinstance(i, list):
+            #print(flat_list(i))
+            num_lst = num_lst + flat_list(i)
+            #print('if:',t)
+        else:
+            num_lst.append(i)
+            #print('else:',t)
+    return num_lst
+
+if __name__ == '__main__':
+    assert flat_list([1, 2, 3]) == [1, 2, 3], "First"
+    assert flat_list([1, [2, 2, 2], 4]) == [1, 2, 2, 2, 4], "Second"
+    assert flat_list([[[2]], [4, [5, 6, [6], 6, 6, 6], 7]]) == [2, 4, 5, 6, 6, 6, 6, 6, 7], "Third"
+    assert flat_list([-1, [1, [-2], 1], -1]) == [-1, 1, -2, 1, -1], "Four"
+    print('Done! Check it')

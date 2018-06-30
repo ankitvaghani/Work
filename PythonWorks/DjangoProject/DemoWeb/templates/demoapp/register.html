@@ -1,0 +1,30 @@
+{% extends "demoapp/base.html" %}
+{% block title %}Update User Details{% endblock %}	
+{% block content %}
+	<center>
+		<div style="border: 2px solid skyblue;">
+			<form method="POST" action="/newuser/">
+				{% csrf_token %}
+				<div>
+					<h3>Register New User</h3><br>					
+				</div>
+				<div>
+					Full Name: <input type="text" name="txtuname" />
+				</div><br>
+				<div>
+					User Email: <input type="text" name="txtuemail" />
+				</div><br>
+				<div>
+					Password: &nbsp; <input type="password" name="txtupass" />
+				</div><br>
+				<div>
+					Mobile No: <input type="text" name="txtumobile" />
+				</div><br>
+				<div>
+					<input type="submit" name="btnsubmit" value="Submit" />
+					<a href="/home/">Go back</a>
+				</div>
+			</form><br>
+		</div>
+	</center>
+{% endblock %}

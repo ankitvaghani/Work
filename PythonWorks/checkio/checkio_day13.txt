@@ -1,0 +1,103 @@
+=======================================================================================================
+
+#DROPBOX STATION.
+#Speech module.
+
+=======================================================================================================
+
+
+FIRST_TEN = ["zero", "one", "two", "three", "four", "five", "six", "seven",
+             "eight", "nine"]
+SECOND_TEN = ["ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
+              "sixteen", "seventeen", "eighteen", "nineteen"]
+OTHER_TENS = ["none", "none", "twenty", "thirty", "forty", "fifty", "sixty", "seventy",
+              "eighty", "ninety"]
+HUNDRED = "hundred"
+
+
+def checkio(number):
+
+    #replace this for solution
+    if number < 10:
+        #print(FIRST_TEN[number])  
+        return FIRST_TEN[number]
+    elif number < 20:
+        #print(number - 10)
+        return SECOND_TEN[number - 10]
+        #return Result[number]
+    elif number < 100:
+        text = OTHER_TENS[int(number / 10)]
+        if number % 10:
+            text += ' ' + checkio(number % 10)
+        return text 
+    elif number < 1000:
+        text  = checkio(int(number/100)) + ' ' + HUNDRED
+        #print(text )
+        if number % 100:
+            text += ' ' + checkio(number % 100)
+        #print(text )
+        return text 
+
+    
+
+if __name__ == '__main__':
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert checkio(4) == 'four', "1st example"
+    assert checkio(133) == 'one hundred thirty three', "2nd example"
+    assert checkio(12) == 'twelve', "3rd example"
+    assert checkio(101) == 'one hundred one', "4th example"
+    assert checkio(212) == 'two hundred twelve', "5th example"
+    assert checkio(40) == 'forty', "6th example"
+    assert not checkio(212).endswith(' '), "Don't forget strip whitespaces at the end of string"
+
+
+
+=======================================================================================================
+
+#SCIENTIFIC EXPEDITION STATION.
+#Common words.
+
+=======================================================================================================
+
+def checkio(first, second):
+    
+    first = set(first.split(','))
+    
+    #print('first:',first)
+    
+    second = set(second.split(','))
+    
+    #print('second:',second)
+    
+    #print( ','.join(sorted(first & second)))
+    
+    return ','.join(sorted(first & second))
+    
+
+#These "asserts" using only for self-checking and not necessary for auto-testing
+if __name__ == '__main__':
+    assert checkio("hello,world", "hello,earth") == "hello", "Hello"
+    assert checkio("one,two,three", "four,five,six") == "", "Too different"
+    assert checkio("one,two,three", "four,five,one,two,six,three") == "one,three,two", "1 2 3"
+    
+
+
+=======================================================================================================
+
+#INCINERATOR STATION.
+#Binary count.
+
+======================================================================================================= 
+  
+def checkio(number):
+    binary = f'{number:0b}';lst = list(binary);result = binary.count('1')
+    #print(result)
+    return result
+
+#These "asserts" using only for self-checking and not necessary for auto-testing
+if __name__ == '__main__':
+    assert checkio(4) == 1
+    assert checkio(15) == 4
+    assert checkio(1) == 1
+    assert checkio(1022) == 9
+

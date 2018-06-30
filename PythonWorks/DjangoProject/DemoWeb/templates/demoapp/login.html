@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	<center>
+		<div style="border: 2px solid skyblue;">
+			<form method="POST" action="/login/">
+				{% csrf_token %}
+				<div>
+					<h3>Login</h3><br>					
+				</div>	
+				{% if errMsg %}
+					{{errMsg}}
+				{% endif %}			
+				<div>
+					Email-Id: <input type="email" name="txtuemail" />
+				</div><br>
+				<div>
+					Password: <input type="password" name="txtupass" />
+				</div><br>				
+				<div>
+					<input type="submit" name="btnsubmit" value="Login Now" />				
+				</div>
+			</form><br>
+		</div>
+	</center>
+</body>
+</html>

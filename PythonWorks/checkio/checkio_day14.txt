@@ -1,0 +1,94 @@
+=============================================================================================
+
+#MINE.
+#Chilles tortoise.
+
+=============================================================================================
+
+def chase(a1_speed, t2_speed, advantage):
+    '''print('a1_speed:',a1_speed)
+    print('t2_speed:',t2_speed)
+    print('advantage:',advantage)'''
+    #print(((a1_speed * advantage) / (a1_speed-t2_speed)), 8)
+    return ((a1_speed * advantage) / (a1_speed-t2_speed), 8)
+
+if __name__ == '__main__':
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    def almost_equal(checked, correct, significant_digits):
+        precision = 0.1 ** significant_digits
+        return correct - precision < checked < correct + precision
+
+    assert almost_equal(chase(6, 3, 2), 4, 8), "example"
+    assert almost_equal(chase(10, 1, 10), 11.111111111, 8), "long number"
+
+
+
+=============================================================================================
+
+#MINE.
+#Skew symmetric matrix.
+
+=============================================================================================
+
+def checkio(matrix):
+    #print(matrix[0][0])
+    for i in range(len(matrix)):
+        #print(i)
+        for j in range(i+1):
+        #    print('i:',i)
+        #    print('j:',j)
+            
+            #print('matrix i j [',i,'][',j,']:', matrix[i][j])
+            #print('matrix j i [',j,'][',i,']:', matrix[j][i])
+            if matrix[i][j] != -matrix[j][i]:
+                return False
+        
+    return True
+
+
+#These "asserts" using only for self-checking and not necessary for auto-testing
+if __name__ == '__main__':
+    assert checkio([
+        [0, 1, 2],
+        [-1, 0, 1],
+        [-2, -1, 0]]) == True, "1st example"
+    assert checkio([
+        [0, 1, 2],
+        [-1, 1, 1],
+        [-2, -1, 0]]) == False, "2nd example"
+    assert checkio([
+        [0, 1, 2],
+        [-1, 0, 1],
+        [-3, -1, 0]]) == False, "3rd example"
+
+=============================================================================================
+
+#POLYGON.
+#Remove Accents.
+
+=============================================================================================
+
+import unicodedata
+def checkio(in_string):
+    "remove accents"
+        
+    if not in_string: return ""
+    t  = unicodedata.normalize('NFKD', in_string).encode('ASCII', 'ignore')    
+    text = ''
+    for a in t: text += chr(a)
+    #print(t)
+    if not t: return in_string
+    #print(text)
+    return text
+
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+if __name__ == '__main__':
+    assert checkio(u"préfèrent") == u'preferent'
+    assert checkio("完好無缺") == u"完好無缺"
+    assert checkio(u"loài trăn lớn") == u"loai tran lon"
+    print('Done')
+    
+    
+    
+    
+

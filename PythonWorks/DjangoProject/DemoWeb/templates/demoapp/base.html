@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="static/demoapp/css/demoapp.css" />
+	<title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+	<div id="sidebar">
+        {% block sidebar %}
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/register/">Register</a></li>
+            <li><a href="/logout/">Logout</a></li>
+        </ul>
+        {% if request.session.name %}
+        	{{request.session.name}}
+        {% else %}
+        	{% redirect('index') %}
+        {% endif %}
+        {% endblock %}
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

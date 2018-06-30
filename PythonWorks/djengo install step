@@ -1,0 +1,73 @@
+Django
+
+sudo apt-get update && sudo apt-get -y upgrade
+//insatll pip
+sudo apt-get install python3-pip
+sudo apt-get install python-pip
+
+//install virtualenv
+sudo pip3 install virtualenv 
+
+//mysql install
+sudo apt-get update
+sudo apt-get install mysql-server
+
+//create virtualenv
+virtualenv -p python3.5 venv
+
+//activate virtualenv
+source venv/bin/activate
+
+//install django
+pip install django==1.11
+
+//create django project
+django-admin startproject Demoapp
+
+//create app in django
+python manage.py startapp demo
+
+//run django project
+python manage.py runserver
+
+//Database model change 
+python manage.py makemigrations demo
+
+//Database create 
+python manage.py migrate 	
+
+//Create an admin user
+python manage.py createsuperuser
+
+//filter-dropdown
+pip install django-admin-list-filter-dropdown
+
+//sublime install step
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+
+
+//mysqlcilent error solve
+sudo apt-get install python3-dev
+easy_install gevent
+pip install mysqlclient
+sudo apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
+
+sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev libssl-dev
+
+
+
+//seting.py file database
+'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'astute',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'STORAGE_ENGINE': 'MyISAM / INNODB / ETC',
+        'OPTIONS': {
+            'sql_mode': 'traditional',
+        }
+    }
+

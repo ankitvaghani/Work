@@ -1,0 +1,143 @@
+
+================================================================================================
+
+#Boolean algebra
+
+================================================================================================
+
+def checkio(opacity):
+
+    fib_number = [1, 1]
+
+    for i in range(2, 20 + 1):
+
+        fib_number.append(fib_number[-1] + fib_number[-2])
+
+        
+
+    age = 0
+
+    opacity_left = 10000
+
+    #fib_numbers = fib_to(20)
+
+    while opacity != opacity_left:
+
+        age += 1
+
+        if age in fib_number:
+
+            opacity_left -= age
+
+        else:
+
+            opacity_left += 1
+
+    return age
+
+
+    
+
+#These "asserts" using only for self-checking and not necessary for auto-testing
+
+if __name__ == '__main__':
+
+    assert checkio(10000) == 0, "Newborn"
+
+    assert checkio(9999) == 1, "1 year"
+
+    assert checkio(9997) == 2, "2 years"
+
+    assert checkio(9994) == 3, "3 years"
+
+    assert checkio(9995) == 4, "4 years"
+
+    assert checkio(9990) == 5, "5 years"
+
+    print ("Done! time for check")
+
+
+================================================================================================
+
+#The Hamming distance2
+
+================================================================================================
+
+
+def checkio(n, m):
+
+    #data = [n, m]
+    #a, b = data
+    #c = n ^ m
+    #print (c)
+ 
+    return bin(n ^ m).count('1')
+    
+
+if __name__ == '__main__':
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert checkio(117, 17) == 3, "First example"
+    assert checkio(1, 2) == 2, "Second example"
+    assert checkio(16, 15) == 5, "Third example"
+
+
+================================================================================================
+
+#Roman Numerals
+
+================================================================================================
+
+def checkio(data):
+
+    #replace this for solution
+    roman_lst = (('M',  1000), ('CM', 900), ('D',  500), ('CD', 400), ('C',  100), ('XC', 90), ('L',  50), ('XL', 40), ('X',  10), ('IX', 9), ('V',  5), ('IV', 4), ('I',  1))
+
+    roman_text=''
+    for roman,value in roman_lst:
+        #print('roman :', roman); print('value : ',value)
+        while data>=value:
+           
+            data-=value
+            roman_text+=roman
+            
+    #print('roman_text :', roman_text)
+    return roman_text
+
+if __name__ == '__main__':
+    #These "asserts" using only for self-checking and not necessary for auto-testing
+    assert checkio(6) == 'VI', '6'
+    assert checkio(76) == 'LXXVI', '76'
+    assert checkio(499) == 'CDXCIX', '499'
+    assert checkio(3888) == 'MMMDCCCLXXXVIII', '3888'
+    
+    
+================================================================================================
+
+#The longest palindromic
+
+================================================================================================
+
+
+def longest_palindromic(text):
+    
+    for i in reversed(range(len(text))):
+        #print(size)
+        for j in range(len(text) - i):
+            #print(j)
+            data = text[j:][:i+1]
+            #print(data[1])
+            #print(data)
+            if data == data[::-1]:
+                
+                return data
+
+if __name__ == '__main__':
+    assert longest_palindromic("artrartrt") == "rtrartr", "The Longest"
+    assert longest_palindromic("abacada") == "aba", "The First"
+    assert longest_palindromic("aaaa") == "aaaa", "The A"
+    
+    
+    
+    
+    
+
