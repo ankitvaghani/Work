@@ -1,0 +1,8 @@
+====================================================
+You can show the apt-get running with the following command:
+====================================================
+ps -A | grep apt
+
+#Afterwards force package(s) to reconfigure like so:
+
+sudo dpkg --configure -a

@@ -1,0 +1,35 @@
+
+====================================* GIT COMMANDS *===============================================
+
+git branch // get current branch
+
+git config --global user.name "Sam Smith"
+
+git config --global user.email sam@example.com
+
+git init
+
+git clone /path/to/repository (git clone username@host:/path/to/repository)
+
+git add <filename> (git add *) (if get warning then fire this command: git config core.autocrlf true)
+
+git commit -m "Commit message" (git commit -a)
+
+git push origin master
+
+git status
+
+git checkout -b amend-my-name OR git checkout -b new-branch existing-branch
+
+git remote // Get you current working url site
+
+git branch -a //List remote branches
+
+git pull origin other-branch
+
+git branch -d branch_name // Delete branch
+
+
+===================================================================================================
+
+

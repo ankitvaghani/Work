@@ -1,0 +1,32 @@
+====================================================
+You can delete the lock file with the following command:
+====================================================
+
+sudo rm /var/lib/apt/lists/lock
+
+You may also need to delete the lock file in the cache directory
+
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+
+
+====================================================
+Skype update error then fire below command
+====================================================
+
+ls -la /etc/apt/sources.list.d/ 
+sudo mv /etc/apt/sources.list.d/skypeforlinux.list /opt/
+
+====================================================
+Remove etharnet cable and after fire below command.
+====================================================
+
+/etc/init.d/networking restart
+
+/etc/init.d/network-manager restart
+
+ping 203.129.210.43  (ping ping_ip)
+
+
+
+

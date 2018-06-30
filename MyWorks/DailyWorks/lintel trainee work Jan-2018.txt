@@ -1,0 +1,382 @@
+hinal@lintelindia.com,
+godson@lintelindia.com,
+sumeet@lintelindia.com,
+jay@lintelindia.com,
+mayur@lintelindia.com,
+rakesh@lintelindia.com
+
+
+
+01-01-2018
+
+100
+=============================================================================
+	
+	Create a new gmail account.
+	Download and Installed skype.
+	Create a new skype account.
+	Installed vmware workstation pro.
+	Installed ubuntu.
+	Learning and practice ubuntu command.
+	Installed python in window.
+	Learn python and practice (contd...).
+
+02-01-2018
+
+=============================================================================
+
+	Shell script 
+	Python prectice
+	
+03-01-2018
+
+=============================================================================
+
+	Ubuntu command done
+	Shell script done
+	Send zip of all shall script all given in by sir
+	Create a new github account
+	Installed git
+	Create a new bitbucket account
+	Learn Git Commands
+	Practice Git Commands
+
+04-01-2018
+
+===============================================================================
+
+	Git command done.
+	Installed mysql-server.
+	Python OOP concept done.
+	Python basic concept done.
+	Python Lists, Tuples, Dictionary, Functions done.
+	Python date, calender, time done.
+	Python menu driven program learn.
+
+
+05-01-2018
+
+================================================================================
+
+        Practice Python function, class and oop concept done.
+        Installed mysql, apache, phpmyadmin and learn it.
+        Installed ubuntu in desktop pc.
+        Installed Skype.
+        Learn menudriven programm in python.
+
+
+06-01-2018
+
+=================================================================================
+	
+        Leave for fees and joining latter submited in college.
+
+07-01-2018
+
+=================================================================================
+
+        Sunday is a Holiday.
+
+08-01-2018
+
+=================================================================================
+
+        Error solved Unable to lock the administration directory in terminal (sudo command was not work).
+        Error solved skype and installed it.
+        Installed mysql-server.
+        Installed pymysql.
+        Instaled pip.
+        Python menudriven programm with mysql (contd...).
+		
+09-01-2018
+
+=================================================================================
+	
+        Python menudriven programm create data file and store the all data and searching with mysql done.
+        Learn how to implement class in another python file.
+        Learn global and local variable how to declare in python.
+	
+	
+10-01-2018
+
+=================================================================================
+
+        Signup checkio.
+        Installed git in linux.
+        Say hi.
+        Correct word.
+        First word.
+        Solve checkio programmes(contd...).  
+               
+
+11-01-2018
+
+=================================================================================
+
+        Between markers.
+        Best_stock.
+        Popular_word.
+        Solve checkio programmes (contd...).         
+       
+
+12-01-2018
+
+=================================================================================
+
+        Revise the git commands.
+        Bigger price.
+        Fizz buzz.
+        The Most Numbers.
+        Solve checkio programmes (contd...).                 
+             
+13-01-2018
+
+=================================================================================
+
+        Even last.                 
+        Secrate message.
+        Three words.
+        Index power.
+        Right ot left.
+        Digits  multiplication .
+        Solve checkio programmes (contd...).   
+
+14-01-2018
+    
+=================================================================================
+
+        Sunday is a Holiday.              
+        
+15-01-2018
+
+=================================================================================
+
+        Number radix.
+        Absolute sorting.
+        Most frequent.
+        Easy Unpack.
+        Complete Elementary level.
+        Solve checkio programmes (contd...).
+        
+16-01-2018
+
+=================================================================================
+
+        Most wanted letter.
+        Non unique elements.
+        House password.
+        Solve checkio programmes (contd...).
+        Learn python GUI. 
+        
+17-01-2018
+
+=================================================================================
+
+	Solved error related to python3 and installed GUI tkinter library.
+        Practice GUI based application demo.
+        Monkey typing.
+        Long repeat.           
+        Solve checkio programmes (contd...).
+        
+18-01-2018
+
+=================================================================================
+  
+	X-O-referee.
+        Pawn brotherhood.
+        Solve checkio programmes (contd...).
+   
+19-01-2018
+
+=================================================================================
+   
+	Median.
+        Days Between.
+        Striped Words.
+        Friends.
+        I love Python!.
+        Create Intervals.
+        Solve checkio programmes (contd...).
+   
+20-01-2018
+
+=================================================================================
+
+	Installed ubuntu 16.04 on desktop.
+	Installed required softwares.
+	Ghosts age.
+	Solve checkio programmes (contd...).
+
+21-01-2018
+
+=================================================================================
+
+        Sunday is a Holiday.
+        
+22-01-2018
+
+=================================================================================
+	
+	Boolean algebra.
+	The Hamming distance2.
+	Roman Numerals.
+	The longest palindromic.
+	Solve checkio programmes (contd...).
+	
+
+23-01-2018
+
+=================================================================================
+
+	Number factory.
+	Flatten a list.
+	Learn some python function.
+	Solve checkio programmes (contd...).
+	
+24-01-2018
+
+=================================================================================
+
+	DROPBOX STATION.
+	Speech module.
+	SCIENTIFIC EXPEDITION STATION.
+	Common words.
+	INCINERATOR STATION.
+	Binary count.
+	Solve checkio programmes (contd...).
+
+25-01-2018
+
+=================================================================================
+
+	MINE STATION.
+	Chilles tortoise.
+	Skew symmetric matrix.
+	POLYGON STATION.
+	Remove Accents.
+	Python functions following list.
+	enumerate, zip, dict, unichr, ord, char, hex and oct, pop, sort and basic some functions
+	Solve checkio programmes (contd...).
+	
+26-01-2018
+
+=================================================================================
+	
+	INCINERATOR STATION.
+	Bird language.
+	SCIENTIFIC EXPEDITION STATION.
+	Continue completely-empty.
+	Solve checkio programmes (contd...).	
+
+27-01-2018
+
+=================================================================================
+
+	Leave.
+
+28-01-2018
+
+=================================================================================
+
+	Sunday is a Holiday.
+
+29-01-2018
+
+=================================================================================
+
+	Continue checkio programmes.
+	Learn Bootstrap.
+
+30-01-2018
+
+=================================================================================	
+
+	Include bootstrap libray.	
+	Learn Bootstrap classes.	
+	meta tag
+		viewport
+		device-width	
+		initial-scale
+		HandheldFriendly
+		
+	container
+	
+	container-fluid
+	 
+	row and col
+	
+	collapse
+	
+	progress bar 
+		progress border
+		bg-light
+		progress-bar-striped
+		progress-bar-animated
+		
+	card
+		card-img-top
+		img-thumbnail
+		float-right and left
+		card-body
+		card-title
+		rounded
+		card-img-overlay
+		card-text
+		
+	dropdown
+		dropdown-toggle
+		dropdown-menu
+		dropdown-item
+		dropdown-header
+		dropdown-divider
+		
+	navbar
+		navbar-expand-md
+		fixed-top
+		sticky-top
+		navbar-toggler
+		navbar-toggler-icon
+		navbar-collapse
+		navbar-nav
+		nav-item
+		nav-link
+		
+	form 
+		form-inline
+		form-control
+		mr-sm-2
+		btn btn-success
+		
+31-01-2018
+
+=================================================================================	
+	
+	Learn Bootstrap classes.		
+	carousel.
+		slide.
+		carousel-indicators.
+		carousel-inner.
+		carousel-item.
+		carousel-caption.
+		carousel-control-prev.
+		carousel-control-prev-icon.
+		carousel-control-next.
+		carousel-control-next-icon.
+		img-responsive .
+	modal.
+		fade.
+		modal-dialog.
+		modal-content.
+		modal-header.
+		modal-title.
+		data-dismiss.
+		modal-body.
+		modal-footer.
+	tooltip.
+		data-placement.
+		title.
+	popover.
+		
+==================================================================================
+
+

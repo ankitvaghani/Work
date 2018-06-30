@@ -1,0 +1,11 @@
+=================================================================================
+
+#	Create new project in angularjs4:=> ng new my-app
+#	Move to the your project directory:=> cd my-app
+#	Start server angularja4:=> ng serve or ng serve --open or ng serve --o
+#	And now go to browser and owrite in url:=> localhost:4200
+
+#	Show all running ports in your system:=>  netstat -ntlp
+#	Kill runnung specific port:=> kill -9 port-id
+
+=================================================================================

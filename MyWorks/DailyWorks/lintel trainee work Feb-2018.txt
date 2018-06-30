@@ -1,0 +1,328 @@
+hinal@lintelindia.com,
+godson@lintelindia.com,
+sumeet@lintelindia.com,
+jay@lintelindia.com,
+mayur@lintelindia.com,
+rakesh@lintelindia.com
+
+
+
+01-02-2018
+
+=================================================================================	
+	
+	Learn Bootstrap classes.
+		
+	video tag.
+		controls.
+		autoplay.
+		source.
+		
+	input tag.
+		contenteditable.
+		caret-color.
+		
+	data-email.
+	
+	media query.
+		@media screen.
+		min-width.
+		max-width.
+		overflow.
+		
+	-webkit-filter.
+		grayscale.
+		blur.
+		drop-shadow.
+		brightness.
+		contrast.
+		hue-rotate.
+		saturate.
+		
+		
+02-02-2018
+
+=================================================================================	
+
+	Include youtube video in webpage.
+	Solve diabeticmanual website design issues.
+	
+			
+03-02-2018
+
+=================================================================================	
+		
+	Learn media query.
+	Solve diabeticmanual website design issues.
+
+04-02-2018
+
+=================================================================================	
+
+	Sunday is holiday.
+	
+05-02-2018
+
+=================================================================================	
+	
+	Tushar marriage.
+	
+06-02-2018
+
+=================================================================================	
+		
+	
+	Solve diabeticmanual website design issues.
+	
+	
+07-02-2018
+
+=================================================================================	
+		
+	
+	Solve diabeticmanual website design issues.
+	
+08-02-2018
+
+=================================================================================	
+		
+	
+	Solve diabeticmanual website design issues.
+	
+09-02-2018
+
+=================================================================================	
+		
+	
+	Solve diabeticmanual website design issues.
+	Bootstrap example.
+	
+10-02-2018
+
+=================================================================================	
+		
+	
+	Learn jquery and practice it.
+	Include jquery plugins.
+	Functions
+		toggle()
+		removeClass()
+		addclass()
+		css()
+		draggable()
+		accordion()
+		datepicker()
+		slider()
+		dialog()
+		menu()
+		selectmenu()		
+		progressbar()
+		tabs()
+		tooltip()
+		toggleClass()
+		
+	classes
+		ui-widget-content
+		toggler
+		ui-widget-content 
+		ui-widget-header
+		ui-corner-all
+		ui-state-default
+		buttonload
+	
+11-02-2018
+
+=================================================================================	
+
+	Sunday is holiday.
+
+12-02-2018
+
+=================================================================================	
+	
+13-02-2018
+
+=================================================================================	
+	
+14-02-2018
+
+=================================================================================	
+		
+15-02-2018
+
+=================================================================================	
+
+16-02-2018
+
+=================================================================================	
+	
+17-02-2018
+
+=================================================================================	
+	
+18-02-2018
+
+=================================================================================	
+	
+	Sunday is holiday.
+		
+19-02-2018
+
+=================================================================================	
+
+20-02-2018
+
+=================================================================================	
+	
+21-02-2018
+
+=================================================================================	
+	
+	Revision and Practice javascript.
+	Revision and Practice ajax.
+	Revision and Practice jquery.
+	Jquery functions practice.
+		ready()
+		window.load()
+		window.onload()
+		keyup()
+		val()
+		innerWidth()
+		outerWidth()
+		innerHeigth()
+		outerHeight()
+		window.width()
+		window.height()
+		document.location.reload()
+		window.setTimeout()
+		document.addEventListener()
+		Date().getTime()
+		window.print()
+		date.toLocaleString()
+		getHours()		
+		getMinutes()
+		getSeconds()
+		window.location.hostname
+		window.location.pathname
+		window.location.assign()
+		navigator.onLine 
+		setInterval()
+		clearInterval()
+		XMLHttpRequest()
+		responseText
+		open()
+		send()
+		 
+		
+	Manipulate the DOM with jQuery
+		find()
+		has()
+		eq()
+		filter()
+		not()
+		siblings()
+		text()
+		html()
+		xhtml()
+		before() 
+		after()
+		append()
+		prepend()
+		appendTo() 
+		prependTo()
+		clone()
+		empty()
+		remove()
+		detach()
+	
+	Fly with jQuery
+		addclass()
+		removeclass()
+		toggleClass()
+
+	jquery animation.
+		animate()		
+		
+	
+22-02-2018
+
+=================================================================================	
+		
+	Learn angularjs and practice it.
+	Include angularjs library.
+	Learn directive  and function practice.
+	    ng-app.
+	    ng-init
+	    ng-bind
+	    ng-controller
+	    ng-model
+	    module()
+	    controller()
+	    directive()
+	    template
+	    ng-repeat
+	    ng-click
+	    filter
+	    orderBy
+	    location
+	    timeout
+	    interval
+	    toLocaleTimeString()	
+
+
+23-02-2018
+
+=================================================================================	
+	
+	Learn directive  and function practice in angularjs.
+	develeop a form and datatable using angularjs.
+	Include angular-animate library.
+		nth-child() in css odd and even table.
+		ng-options
+		ng-disabled
+		ng-click
+		ng-mousemove
+		ng-mouseover
+		ng-mousedown
+		ng-mouseup
+		ng-switch
+		ng-switch-when
+		ng-show
+		ngAnimate
+		ng-hide
+
+		 
+24-02-2018
+
+=================================================================================	
+
+	Install apache and phpmyadmin.
+	Learn directive  and function practice in angularjs.
+	Develop one shopping list webpage in angularjs.
+		indexOf()
+		push()
+		splice()
+		
+		
+24-02-2018
+
+=================================================================================	
+		
+	Sunday is holiday.		
+		
+24-02-2018
+
+=================================================================================	
+	
+	Learn angularjs 4 and practice it.
+	Install nodejs, npm and cli library.		
+	Develop one datatable and include searching, sorting and pagination in angularjs (contd...).
+		
+01-03-2018
+
+=================================================================================	
+
+	Server data get and post error solve in angularjs.
+	Post data to the server and get resopnse from server in jquery.
+
+
